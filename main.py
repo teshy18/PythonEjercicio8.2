@@ -17,9 +17,7 @@ class auto:
 ##main
 if __name__ == '__main__':
   ##se crea un objeto
-  focus = auto('focus', 'ford', 'sedan', 'azul')
-
-  ##print(focus) >> nombe: focus, marca: ford.......
+  focus = auto('Focus', 'Ford', 'sedan', 'azul')
 
   ##se crea un json don el objeto
   a1 = json.dumps(focus.__dict__, separators=(',', ':'), indent=2)
